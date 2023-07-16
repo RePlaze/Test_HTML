@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background-color: #cbecff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.rounded-button {
+    background-color: #0962e8;
+    color: #fff;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 22px;
+    color: #29374E;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.app-image {
+    max-width: 100%;
+    height: auto;
+    padding-right: 40px;
+}
+
+.card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 10px;
+    width: 220px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #29374E;
+    font-weight: 500;
+    text-align: left;
+}
+
+.icon-top-right {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #0962e8;
+    padding: 4px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
+    width: 100%;
+    margin-bottom: -25px;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?55205788');
+    src: url('../font/fontello.eot?55205788#iefix') format('embedded-opentype'),
+         url('../font/fontello.woff2?55205788') format('woff2'),
+         url('../font/fontello.woff?55205788') format('woff'),
+         url('../font/fontello.ttf?55205788') format('truetype'),
+         url('../font/fontello.svg?55205788#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chart-outline:before { content: '\e800'; }
+.icon-chart-pie-outline:before { content: '\e801'; }
+.icon-cog:before { content: '\e802'; }
+.icon-exchange:before { content: '\e803'; }
+
+.icon-chart-outline:before,
+.icon-chart-pie-outline:before,
+.icon-cog:before,
+.icon-exchange:before {
+    color: #0962e8
+}
